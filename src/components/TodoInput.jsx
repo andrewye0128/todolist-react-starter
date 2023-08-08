@@ -67,7 +67,7 @@ const StyledAddTodoActionContainer = styled.div`
     }
   }
 `;
-const TodoInput = ({ inputValue, onChange, onKeyDown, toAddTodo }) => {
+const TodoInput = ({ inputValue, onChange, onKeyDown, onAddTodo }) => {
   return (
     <StyledAddTodoContainer>
       <StyledLabelIcon className="icon" htmlFor="add-todo-input" />
@@ -83,7 +83,7 @@ const TodoInput = ({ inputValue, onChange, onKeyDown, toAddTodo }) => {
         />
       </StyledInputContainer>
       <StyledAddTodoActionContainer>
-        <button className="btn-reset">新增</button>
+        <button className="btn-reset" onClick={() => onAddTodo?.()}>新增</button>
       </StyledAddTodoActionContainer>
     </StyledAddTodoContainer>
   );
