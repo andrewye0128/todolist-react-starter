@@ -1,6 +1,6 @@
 # Todo List X MVC with React
 
-![image]([picture or gif url](https://github.com/andrewye0128/todolist-react-starter/blob/main/src/assets/images/AC%20todolist.jpg))
+![image](https://github.com/andrewye0128/todolist-react-starter/blob/main/src/assets/images/AC%20todolist.jpg)
 
 ## introduction
 This is a simple yet powerful todo list application designed to help you organize and manage your daily tasks, chores, and plans. The app comes complete with features for login, registration, and task management, enabling you to effortlessly track, add, edit, and delete todos.
